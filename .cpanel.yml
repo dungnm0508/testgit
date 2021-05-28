@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lbqcsfsdhosting/public_html/test
+    - /bin/cp * $DEPLOYPATH
+ 
